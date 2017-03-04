@@ -1,216 +1,164 @@
 html {
-  margin: 0, 0, 0, 0;
+  margin: 0;
 }
 
 body {
     color: #a58754;
-    font-family: 'Droid Serif', serif;
+    font-family: 'Droid Serif', san-serif;
 }
-.container {
-    width: 940px;
-    margin-left: auto;
-    margin-right: auto;
+h2 {
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
 }
-
 /* header section */
+
 .header {
     background-color: white;
     width: 100%;
-    height: 300px;
+    height: 500px;
 }
 .logo {
-    width: 30%;
-    height: auto;
     position: absolute;
     top: 0;
     left: 0;
-    margin-bottom: 40px;
+    width: 400px;
+    height: auto;
 }
 .right-side-logo {
     position: absolute;
     top: 0;
     right: 0;
 }
-.facebook {
+.social {
     position: absolute;
-    top: 280px;
-    right: 175px;
-    color: #a58754;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-.pinterest {
-    position: absolute;
-    top: 280px;
-    right: 125px;
-    color: #a58754;
-    margin-left: 10px;
-    margin-top: 10px;
-}
-.phone {
-    position: absolute;
-    top: 280px;
-    right: 75px;
-    color: #a58754;
-    margin-left: 10px;
-    margin-top: 10px;
+    top: 210px;
+    width: 300px;
 }
 
 
 /* navigation */
+
 .site-nav li {
     list-style: none;
     float: left;
+    padding-left: 10px;
 }
 .site-nav ul {
-    margin-left: 450px;
+    margin-left: 500px;
     padding: 0;
 }
 .site-nav {
-    margin-bottom: 40px;
+    padding-bottom: 20px;
+    margin-top: 260px;
 
 }
 .site-nav a {
     width: 115px;
+    height: 75px:
     display: inline-block;
     text-decoration: none;
     color: #775d2f;
-    font-size: 100%;
+    font-size: 125%;
     font-weight: bold;
     padding-left: 10px;
     padding-right: 10px;
-    margin-top: 280px;
 }
 .site-nav a:hover {
     color: #92b267;
 }
-.frontpic {
-    max-width: 100%;
-    height: auto;
-    padding-left: 30px;
-    margin-top: 30px;
-    margin-bottom: 35px;
-    box-sizing: border-box;
+#slideshow {
+    margin: 50px auto;
+    position: relative;
+    width: 1200px;
+    height: 550px;
+    padding: 20px, 15px, 0px, 40px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    margin-bottom: 60px;
+}
+
+#slideshow > div {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
 }
 /* About us section */
 
-h2 {
-    text-align: center;
-    font-size: 200%;
-    font-weight: bold;
-    margin: 60px, 0, 60px, 0;
-}
-
 .what-we-do {
+    margin-top: 60px;
     max-width: 50%;
     height: auto;
-    padding-left: 115px;
+    width: 450px;
+    margin-left: 100px;
+    margin-right: 115px;
     float: left;
-    margin-top: 40px;
-    margin-bottom: 20px;
-    box-sizing: border-box;
 }
 .staff {
     text-align: center;
-    max-width: 45%;
-    padding-left: 160px;
+    max-width: 75%;
+    padding: 20px;
+    margin-left: 175px;
+    margin-bottom: 30px;
     float: left;
-    margin-bottom: 60px;
     box-sizing: border-box;
 }
-.staff-ingredients {
-    text-align: center;
-    max-width: 45%;
-    padding-left: 180px;
-    margin-right: 120px;
-    float: left;
-    margin-bottom: 60px;
-    box-sizing: border-box;
-}
+
 /* services and specialties section */
-.service-pic {
+.service-pic1 {
     width: 75px;
     height: 100px;
-    margin-left: 115px;
+    margin-left: 100px;
     margin-top: 60px;
+    margin-bottom: 60px;
     float: left;
 }
-.services-text {
+.services-text1 {
     text-align: left;
     max-width: 240px;
     padding: 5px, 10px;
     margin-left: 240px;
     margin-top: 60px;
-    float: left;
+    margin-bottom: 60px;
     box-sizing: border-box;
+    float: left;
 }
 .service-pic2 {
-    width: 100px;
-    height: 175px;
+    width: 75px;
+    height: 100px;
     margin-left: 70px;
     margin-top: 60px;
+    margin-bottom: 60px;
     float: left;
 }
 .services-text2 {
     text-align: left;
     max-width: 240px;
     padding: 5px, 10px;
-    margin-left: 220px;
+    margin-left: 235px;
+    margin-right: 100px;
     margin-top: 60px;
-    float: left;
+    margin-bottom: 60px;
     box-sizing: border-box;
-}
-.service-pic3 {
-  width: 75px;
-  height: 100px;
-  margin-top: 60px;
-  margin-left: 115px;
-  margin-bottom: 40px;
-  float: left;
-}
-.services-text3 {
-  text-align: left;
-  max-width: 240px;
-  padding: 5px, 10px;
-  margin-top: 60px;
-  margin-left: 240px;
-  margin-bottom: 40px;
-  float: left;
-  box-sizing: border-box;
-}
-.service-pic4 {
-    width: 100px;
-    height: 175px;
-    margin-top: 60px;
-    margin-left: 70px;
-    margin-bottom: 40px;
     float: left;
 }
-.services-text4 {
-    text-align: left;
-    max-width: 240px;
-    padding: 5px, 10px;
-    margin-top: 60px;
-    margin-left: 220px;
-    margin-bottom: 40px;
-    float: left;
-    box-sizing: border-box;
-}
-/* Menus Section */
 
-.menu-info {
-    width: 40%;
-    margin-left: 325px;
+.menu-text {
     text-align: center;
-    margin-top: 60px;
-    padding-left: 60px;
-    padding-right: 60px;
+    max-width: 50%;
+    height: auto;
+    padding: 20px;
+    margin-left: 350px;
+    box-sizing: border-box;
+}
+.menus {
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 120px;
+    margin-bottom: 60px;
 }
 
-.menus {
-    display: inline-block;
-    margin: 60px;
-}
 /* Get in Touch Section */
 
 .container {
@@ -220,6 +168,11 @@ h2 {
 }
 h3  {
     text-align: center;
+    margin-top: 60px;
+}
+.top-of-fomr {
+    font-size: 24px;
+    font-style: bold;
 }
 .currants {
     margin-bottom: -20px;
@@ -274,6 +227,7 @@ h3  {
     color:#888;
 }
 .wedding {
+    display: inline-block;
     width: 30%;
     height: 415px;
     margin-top: -485px;
@@ -281,6 +235,7 @@ h3  {
     float: left;
 }
 .celebrate {
+    display: inline-block;
     width: 30%;
     height: 415px;
     margin-top: -503px;
