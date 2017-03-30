@@ -1,5 +1,5 @@
 body {
-    color: #6b542c;
+    color: #a58754;
     font-family: 'Droid Serif', san-serif;
 }
 /* header section */
@@ -23,7 +23,7 @@ body {
 }
 .social {
     position: absolute;
-    top: 210px;
+    top: 208px;
     width: 300px;
 }
 
@@ -49,7 +49,7 @@ body {
     height: 75px:
     display: inline-block;
     text-decoration: none;
-    color: #6b542c;
+    color: #a58754;
     font-size: 125%;
     font-weight: bold;
     padding-left: 10px;
@@ -78,7 +78,7 @@ body {
 /* About us section */
 h2 {
     text-align: center;
-    color: #6b542c;
+    color: #a58754;
     font-size: 200%;
     font-weight: bold;
 }
@@ -103,14 +103,6 @@ h2 {
 
 /* services and specialties section */
 
-.service-pic1 {
-    width: 75px;
-    height: 100px;
-    margin-left: 100px;
-    margin-top: 60px;
-    margin-bottom: 60px;
-    float: left;
-}
 .services-text1 {
     text-align: left;
     max-width: 240px;
@@ -140,6 +132,7 @@ h2 {
     box-sizing: border-box;
     float: left;
 }
+/* Beginning of Menu/modal Section */
 
 .menu-text {
     text-align: center;
@@ -149,19 +142,15 @@ h2 {
     margin-left: 350px;
     box-sizing: border-box;
 }
-.menus {
-    border-radius: 50%;
-    display: inline-block;
-    margin-left: 120px;
-    margin-bottom: 60px;
+.event-pics {
+    display: inline-block;;
+    float: left;
 }
 
 /* Get in Touch Section */
 
 .container {
-  	width:30%;
-  	margin:0 auto;
-  	position:relative;
+    width: 33%;
 }
 h3  {
     text-align: center;
@@ -176,11 +165,6 @@ h3  {
 .address {
     text-align: center;
     margin-left: 20px;
-}
-.currants {
-    margin-bottom: -20px;
-    margin-top: -32px;
-    margin-left: 50px;
 }
 #contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="text"], #contact textarea {
   	width:100%;
@@ -229,33 +213,20 @@ h3  {
 :-ms-input-placeholder {
     color:#888;
 }
-.wedding {
-    display: inline;;
-    width: 30%;
-    height: 415px;
-    margin-top: -503px:
-    float: left;
-}
-.celebrate {
-    display: inline;
-    width: 30%;
-    height: 410px;
-    margin-top: -503px;
-    margin-left: 725px;
-    float: right;
-}
+/* Footer Section*/
+
 .fb-bottom {
-    color: #6b542c;
+    color: #a58754;
 }
 .pin-bottom {
-    color: #6b542c;
+    color: #a58754;
 }
 footer {
-    background-color: #6b542c;
+    background-color: #a58754;
     text-align: center;
     width: 100%
     height: 150px;
-    color: #d6c8b1;
+    color: #d8ccb6;
     padding-top: 40px;
     padding-bottom: 60px;
     margin-top: 60px;
@@ -266,17 +237,14 @@ footer {
 .fix {
 	clear: both;
 }
-
 .group:before,
 .group:after {
 	content: "";
 	display: table;
 }
-
 .group:after {
 	clear: both;
 }
-
 .group {
 	zoom: 1;
 }
